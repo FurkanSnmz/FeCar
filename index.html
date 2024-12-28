@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>FeCar</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <i class="ri-steering-line"></i>
+                    FeCar
+                </a>
+            </nav>
+        </header>
+
+        <main class="main">
+
+            <section class="home section" id="home">
+                <div class="shape shape__big"></div>
+                <div class="shape shape__small"></div>
+                <div class="home__container container grid">
+                    <div class="home__data">
+                        <h1 class="home__title">
+                            Sana göre en iyi arabayı seç.
+                        </h1>
+                        <h2 class="home__subtitle">
+                            Porsche Taycan (Mission E)
+                        </h2>
+                        <h3 class="home__elec">
+                            <i class="ri-flashlight-fill"></i> 
+                            Elektrikli Araba
+                        </h3>
+                    </div>
+                    <img src="img/home.png" alt="" class="home__img">
+
+                    <div class="home__car">
+                        <div class="home__car-data">
+                            <div class="home__car-icon">
+                                <i class="ri-temp-cold-line"></i>
+                            </div>
+                            <h2 class="home__car-number">24°</h2>
+                            <h3 class="home__car-name">SICAKLIK</h3>
+                        </div>
+
+                        <div class="home__car-data">
+                            <div class="home__car-icon">
+                                <i class="ri-dashboard-3-line"></i>
+                            </div>
+                            <h2 class="home__car-number">873</h2>
+                            <h3 class="home__car-name">KM</h3>
+                        </div>
+
+                        <div class="home__car-data">
+                            <div class="home__car-icon">
+                                <i class="ri-flashlight-fill"></i>
+                            </div>
+                            <h2 class="home__car-number">%94</h2>
+                            <h3 class="home__car-name">BATARYA</h3>
+                        </div>
+                    </div>
+                    <a href="car.html" class="home__button">BAŞLA</a>
+                </div>
+            </section>
+
+            <section class="about section" id="about">
+                <div class="about__container container grid">
+                    <div class="about__group">
+                        <img src="img/about.png" alt="" class="about__img">
+
+                        <div class="about__card">
+                            <h3 class="about__card-title">2.500+</h3>
+                            <p class="about__card-description">
+                                Popüler güzergahlar boyunca yerleştirilen hızlı şarj istasyonları
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about__data">
+                        <h2 class="section__title about__title">
+                            Geçmiş Teknolojilerle <br> Donatılmış Makineler
+                        </h2>
+                        <p class="about__description">
+                            Gelecekte yüksek performanslı elektrikli arabalar, tanınmış markalar tarafından geliştirilen yenilikçi platformlarla daha da evrim geçirecek; bu araçlar, aerodinamik tasarımları ve hafif malzemeleri sayesinde hem estetik hem de verimlilik açısından dikkat çekerken, uzun menzil sunan, hızlı şarj olanaklarına sahip ve gelişmiş otonom sürüş sistemleriyle donatılmış yapılarıyla sürüş deneyimini devrim niteliğinde iyileştirerek, sürdürülebilir malzemelerin kullanımı ve çevre dostu üretim süreçleriyle birleşerek hem teknoloji hem de çevre bilinci açısından yeni bir dönemi temsil edecek.                        </p>
+                        <a href="about.html" class="button">Daha fazla</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="popular section" id="popular">
+                <h2 class="section__title">
+                    Porsche Markasının Elektrikli Otomobillerinden <br> Hangisini Seçersin?
+                </h2>
+                <div class="popular__container container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="popular__card swiper-slide">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="popular__title">Porsche</h1>
+                            <h3 class="popular__subtitle">Turbo S</h3>
+
+                            <img src="img/popular1.png" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <div class="popular__data-group">
+                                    <i class="ri-dashboard-3-line"></i> 2.8 Saniye
+                                </div>
+                                <div class="popular__data-group">
+                                    <i class="ri-funds-box-line"></i> 356 Km/s
+                                </div>
+                                <div class="popular__data-group">
+                                    <i class="ri-charging-pile-2-line"></i> Elektrikli
+                                </div>
+                            </div>
+
+                            <h3 class="popular__price">37.850.000₺</h3>
+
+                            <button class="button popular__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="popular__title">Porsche</h1>
+                            <h3 class="popular__subtitle">Taycan (Mission E)</h3>
+
+                            <img src="img/popular2.png" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <div class="popular__data-group">
+                                    <i class="ri-dashboard-3-line"></i> 3.2 Saniye
+                                </div>
+                                <div class="popular__data-group">
+                                    <i class="ri-funds-box-line"></i> 260 Km/s
+                                </div>
+                                <div class="popular__data-group">
+                                    <i class="ri-charging-pile-2-line"></i> Elektrikli
+                                </div>
+                            </div>
+
+                            <h3 class="popular__price">7.360.000₺</h3>
+
+                            <button class="button popular__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="popular__title">Porsche</h1>
+                            <h3 class="popular__subtitle">Turbo S Cross</h3>
+
+                            <img src="img/popular3.png" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <div class="popular__data-group">
+                                    <i class="ri-dashboard-3-line"></i> 2.5 Saniye
+                                </div>
+                                <div class="popular__data-group">
+                                    <i class="ri-funds-box-line"></i> 250 Km/s
+                                </div>
+                                <div class="popular__data-group">
+                                    <i class="ri-charging-pile-2-line"></i> Elektrikli
+                                </div>
+                            </div>
+
+                            <h3 class="popular__price">30.000.000₺</h3>
+
+                            <button class="button popular__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="popular__title">Porsche</h1>
+                            <h3 class="popular__subtitle">Boxster 718</h3>
+
+                            <img src="img/popular4.png" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <div class="popular__data-group">
+                                    <i class="ri-dashboard-3-line"></i> 4.6 Saniye
+                                </div>
+                                <div class="popular__data-group">
+                                    <i class="ri-funds-box-line"></i> 285 Km/s
+                                </div>
+                                <div class="popular__data-group">
+                                    <i class="ri-charging-pile-2-line"></i> Elektrikli
+                                </div>
+                            </div>
+
+                            <h3 class="popular__price">8.000.000₺</h3>
+
+                            <button class="button popular__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="popular__card swiper-slide">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="popular__title">Porsche</h1>
+                            <h3 class="popular__subtitle">Cayman</h3>
+
+                            <img src="img/popular5.png" alt="" class="popular__img">
+
+                            <div class="popular__data">
+                                <div class="popular__data-group">
+                                    <i class="ri-dashboard-3-line"></i> 5.1 Saniye
+                                </div>
+                                <div class="popular__data-group">
+                                    <i class="ri-funds-box-line"></i> 275 Km/s
+                                </div>
+                                <div class="popular__data-group">
+                                    <i class="ri-charging-pile-2-line"></i> Elektrikli
+                                </div>
+                            </div>
+
+                            <h3 class="popular__price">28.500.000₺</h3>
+
+                            <button class="button popular__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-slide-button swiper-button-prev"></div>
+                    <div class="swiper-slide-button swiper-button-next"></div>
+                </div>
+            </section>
+
+            <section class="features section">
+                <h2 class="section__title">
+                    Daha Fazla Özellik
+                </h2>
+                <div class="features__container container grid">
+                    <div class="features__group">
+                        <img src="img/features.png" alt="" class="features__img">
+
+                        <div class="features__card features__card-1">
+                            <h3 class="features__card-title">800v</h3>
+                            <p class="features__card-description">Turbo<br>Şarj</p>
+                        </div>
+
+                        <div class="features__card features__card-2">
+                            <h3 class="features__card-title">350</h3>
+                            <p class="features__card-description">Km<br>Menzil</p>
+                        </div>
+
+                        <div class="features__card features__card-3">
+                            <h3 class="features__card-title">480</h3>
+                            <p class="features__card-description">Km<br>Mesafe</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="featured section" id="featured">
+                <h2 class="section__title">
+                    Öne Çıkan Lüks Otomobiller
+                </h2>
+                <div class="featured__container container">
+                    <ul class="featured__filters">
+                        <li>
+                            <button class="featured__item active-featured" data-filter="all">
+                                <span>||</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".porsche">
+                                <img src="img/logo1.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".audi">
+                                <img src="img/logo2.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".tesla">
+                                <img src="img/logo3.png" alt="">
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="featured__content grid">
+                        <article class="featured__card mix tesla">
+                            <div class="shape shape__smaller"></div>
+
+
+                            <h1 class="featured__title">Tesla</h1>
+
+                            <h3 class="featured__subtitle">Model X</h3>
+
+                            <img src="img/featured1.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">4.995.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix tesla">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Tesla</h1>
+
+                            <h3 class="featured__subtitle">Model 3</h3>
+
+                            <img src="img/featured2.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">3.000.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+                        
+                        <article class="featured__card mix audi">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Audi</h1>
+
+                            <h3 class="featured__subtitle">E-tron</h3>
+
+                            <img src="img/featured3.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">8.033.062₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix porsche">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Porsche</h1>
+
+                            <h3 class="featured__subtitle">Boxster 987</h3>
+
+                            <img src="img/featured4.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">6.500.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix porsche">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Porsche</h1>
+
+                            <h3 class="featured__subtitle">Panamera</h3>
+
+                            <img src="img/featured5.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">16.150.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="logos section">
+                <div class="logos__container container grid">
+                    <div class="logos__content">
+                        <img src="img/logo1.png" alt="" class="logos__img">
+                    </div>
+                    <div class="logos__content">
+                        <img src="img/logo2.png" alt="" class="logos__img">
+                    </div>
+                    <div class="logos__content">
+                        <img src="img/logo3.png" alt="" class="logos__img">
+                    </div>
+                    <div class="logos__content">
+                        <img src="img/logo4.png" alt="" class="logos__img">
+                    </div>
+                    <div class="logos__content">
+                        <img src="img/logo5.png" alt="" class="logos__img">
+                    </div>
+                    <div class="logos__content">
+                        <img src="img/logo6.png" alt="" class="logos__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer section">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+
+            <div class="footer__container container grid"></div>
+            <span class="footer__copy">
+                &#169; FeCar. Tüm Hakları Saklıdır.
+            </span>
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <script src="scrollreveal.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script src="mixitup.min.js"></script>
+
+        <script src="main.js"></script>
+    </body>
+</html>

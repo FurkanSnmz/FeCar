@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>FeCar - Otomobiller</title>
+    </head>
+    <body>
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="index.html" class="nav__logo">
+                    <i class="ri-steering-line"></i>
+                    FeCar
+                </a>
+            </nav>
+        </header>
+
+        <main class="main">
+
+            <section class="featured section" id="featured">
+                <h2 class="section__title">
+                    Otomobiller.
+                </h2>
+                <div class="featured__container container">
+                    <ul class="featured__filters">
+                        <li>
+                            <button class="featured__item active-featured" data-filter="all">
+                                <span>||</span>
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".porsche">
+                                <img src="img/logo1.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".audi">
+                                <img src="img/logo2.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".tesla">
+                                <img src="img/logo3.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".lamborghini">
+                                <img src="img/logo4.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".bmw">
+                                <img src="img/logo5.png" alt="">
+                            </button>
+                        </li>
+                        <li>
+                            <button class="featured__item" data-filter=".mercedes">
+                                <img src="img/logo6.png" alt="">
+                            </button>
+                        </li>
+                    </ul>
+
+                    <div class="featured__content grid">
+                        <article class="featured__card mix tesla">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Tesla</h1>
+
+                            <h3 class="featured__subtitle">Model X</h3>
+
+                            <img src="img/featured1.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">4.995.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix tesla">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Tesla</h1>
+
+                            <h3 class="featured__subtitle">Model 3</h3>
+
+                            <img src="img/featured2.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">3.000.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+                        
+                        <article class="featured__card mix audi">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Audi</h1>
+
+                            <h3 class="featured__subtitle">E-tron</h3>
+
+                            <img src="img/featured3.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">8.033.062₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix porsche">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Porsche</h1>
+
+                            <h3 class="featured__subtitle">Boxster 987</h3>
+
+                            <img src="img/featured4.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">6.500.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix porsche">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Porsche</h1>
+
+                            <h3 class="featured__subtitle">Panamera</h3>
+
+                            <img src="img/featured5.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">16.150.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix porsche">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Porsche</h1>
+
+                            <h3 class="featured__subtitle">Turbo S</h3>
+
+                            <img src="img/popular1.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">37.850.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+
+                        <article class="featured__card mix porsche">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Porsche</h1>
+
+                            <h3 class="featured__subtitle">Taycan (Mission E)</h3>
+
+                            <img src="img/popular2.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">7.360.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+
+                        <article class="featured__card mix porsche">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Porsche</h1>
+
+                            <h3 class="featured__subtitle">Turbo S Cross</h3>
+
+                            <img src="img/popular3.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">30.000.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix porsche">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Porsche</h1>
+
+                            <h3 class="featured__subtitle">Boxster 718</h3>
+
+                            <img src="img/popular4.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">8.000.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix porsche">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Porsche</h1>
+
+                            <h3 class="featured__subtitle">Cayman</h3>
+
+                            <img src="img/popular5.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">28.500.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix audi">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Audi</h1>
+
+                            <h3 class="featured__subtitle">Q4 E-tron</h3>
+
+                            <img src="img/popular6.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">2.500.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix audi">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Audi</h1>
+
+                            <h3 class="featured__subtitle">Q8 E-tron</h3>
+
+                            <img src="img/popular7.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">3.500.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix tesla">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Tesla</h1>
+
+                            <h3 class="featured__subtitle">Model S</h3>
+
+                            <img src="img/popular8.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">4.000.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix tesla">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Tesla</h1>
+
+                            <h3 class="featured__subtitle">Model X</h3>
+
+                            <img src="img/popular9.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">4.500.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix tesla">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Tesla</h1>
+
+                            <h3 class="featured__subtitle">Model Y</h3>
+
+                            <img src="img/popular10.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">1.791.451₺</h3>
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix tesla">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Tesla</h1>
+
+                            <h3 class="featured__subtitle">Cybertruck</h3>
+
+                            <img src="img/popular11.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">2.500.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix lamborghini">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Lamborghini</h1>
+
+                            <h3 class="featured__subtitle">Revuelto</h3>
+
+                            <img src="img/popular12.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">8.000.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        
+                        <article class="featured__card mix lamborghini">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Lamborghini</h1>
+
+                            <h3 class="featured__subtitle">Sterrato</h3>
+
+                            <img src="img/popular13.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">7.000.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+
+                        <article class="featured__card mix bmw">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">BMW</h1>
+
+                            <h3 class="featured__subtitle">İ3</h3>
+
+                            <img src="img/popular14.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">1.500.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+
+                        <article class="featured__card mix bmw">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">BMW</h1>
+
+                            <h3 class="featured__subtitle">İ4</h3>
+
+                            <img src="img/popular15.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">2.500.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix bmw">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">BMW</h1>
+
+                            <h3 class="featured__subtitle">İX</h3>
+
+                            <img src="img/popular16.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">3.000.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix mercedes">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Mercedes</h1>
+
+                            <h3 class="featured__subtitle">EQS</h3>
+
+                            <img src="img/popular17.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">4.500.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix mercedes">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Mercedes</h1>
+
+                            <h3 class="featured__subtitle">EQC</h3>
+
+                            <img src="img/popular18.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">2.500.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                        <article class="featured__card mix mercedes">
+                            <div class="shape shape__smaller"></div>
+
+                            <h1 class="featured__title">Mercedes</h1>
+
+                            <h3 class="featured__subtitle">EQA</h3>
+
+                            <img src="img/popular19.png" alt="" class="featured__img">
+
+                            <h3 class="featured__price">2.200.000₺</h3>
+
+                            <button class="button featured__button">
+                                <i class="ri-steering-line"></i>
+                            </button>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+        <footer class="footer section">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+
+            <div class="footer__container container grid"></div>
+            <span class="footer__copy">
+                &#169; FeCar. Tüm Hakları Saklıdır.
+            </span>
+        </footer>
+
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="ri-arrow-up-line"></i>
+        </a>
+
+        <script src="scrollreveal.min.js"></script>
+
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+        <script src="mixitup.min.js"></script>
+
+        <script src="main.js"></script>
+    </body>
+</html>
