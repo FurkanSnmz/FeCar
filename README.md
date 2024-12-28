@@ -1,2 +1,3 @@
 # FeCar
-The "FeCar" website, developed using HTML, CSS and JavaScript, showcases car models along with their features and prices, offering users a digital showroom experience.
+The "FeCar" website, developed using HTML, CSS and JavaScript, offers a wide range of models from renowned brands such as Mercedes, Porsche, Lamborghini, BMW, Audi and Tesla, with a focus on electric vehicles. The site highlights the environmental benefits of electric cars, emphasizing their role in reducing carbon emissions and providing eco-friendly driving options. By offering detailed information about each vehicle's features, specifications and prices, the site allows users to explore and compare the latest electric vehicles, providing a digital showroom experience. This enables users to discover both eco-conscious choices and high-perfomance cars.
+![FeCar](https://github.com/user-attachments/assets/0910b803-a4ff-41ce-844a-3dbfe3f8374d)
